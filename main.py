@@ -1,14 +1,7 @@
 import turtle
 def shape(sides):
   for i in range(sides):
-    turtle.fd(20)
+    turtle.fd(50)
     turtle.rt(360/sides)
 turtle.color('red')
-shape(3)
-for n in range(1):
-  turtle.fd(50)
-  shape(5)
-turtle.goto(-100,100)
-for n in range(9):
-  turtle.fd(50)
-  turtle.rt(160)
+shape(6)
